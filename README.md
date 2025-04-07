@@ -1,3 +1,7 @@
+# Additional Features
+- `BeforeEach` hook (supported servers: `Echo`)
+- Multiple response cookies for strict server (supported servers: `all`)
+
 # `oapi-codegen`
 
 [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/9450/badge)](https://www.bestpractices.dev/projects/9450)
