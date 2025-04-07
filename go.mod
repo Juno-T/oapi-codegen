@@ -4,6 +4,7 @@ go 1.21.0
 
 require (
 	github.com/getkin/kin-openapi v0.128.0
+	github.com/oapi-codegen/oapi-codegen/v2 v2.4.1
 	github.com/speakeasy-api/openapi-overlay v0.9.0
 	github.com/stretchr/testify v1.10.0
 	golang.org/x/text v0.20.0
@@ -21,12 +22,10 @@ require (
 	github.com/josharian/intern v1.0.0 // indirect
 	github.com/mailru/easyjson v0.7.7 // indirect
 	github.com/mohae/deepcopy v0.0.0-20170929034955-c48cc78d4826 // indirect
-	github.com/oapi-codegen/oapi-codegen/v2 v2.4.1 // indirect
 	github.com/perimeterx/marshmallow v1.1.5 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
-	github.com/ugorji/go/codec v1.2.11 // indirect
 	github.com/vmware-labs/yaml-jsonpath v0.3.2 // indirect
 	golang.org/x/mod v0.17.0 // indirect
 )
 
-replace github.com/oapi-codegen/oapi-codegen/v2 => github.com/Juno-T/oapi-codegen/v2 v2.0.99
+replace github.com/oapi-codegen/oapi-codegen/v2 => github.com/Juno-T/oapi-codegen/v2 v2.0.100

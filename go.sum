@@ -1,5 +1,5 @@
-github.com/Juno-T/oapi-codegen/v2 v2.0.99 h1:7dusceQbYW5t+46wsS2tdQrJFb9ZR7nJYCmoQ+I7+lE=
-github.com/Juno-T/oapi-codegen/v2 v2.0.99/go.mod h1:INk40VsTCUbNElCeY1GxNJwpi4MqFwpYhC2+iiN7R14=
+github.com/Juno-T/oapi-codegen/v2 v2.0.100 h1:ZL3Czo7DsU4KfXL+NW+hc0AoPJIJBWS+dD5Hy8VILrg=
+github.com/Juno-T/oapi-codegen/v2 v2.0.100/go.mod h1:vkb92EyETwdUus2UFP3JZ4ffJJ/x+WJ6fBm2x3TZwC0=
 github.com/chzyer/logex v1.1.10/go.mod h1:+Ywpsq7O8HXn0nuIou7OrIPyXbp3wmkHB+jjWRnGsAI=
 github.com/chzyer/readline v0.0.0-20180603132655-2972be24d48e/go.mod h1:nSuG5e5PlCu98SY8svDHJxuZscDgtXS6KTTbou5AhLI=
 github.com/chzyer/test v0.0.0-20180213035817-a1ea475d72b1/go.mod h1:Q3SI9o4m/ZMnBNeIyt5eFwwo7qiLfzFZmjNmxjkiQlU=
