@@ -87,7 +87,7 @@
                 {{range $headers -}}
                     {{if eq .Name "Set-Cookie" -}}
                         for _, cookie := range response.Headers.SetCookie {
-                            w.Header().Set("Set-Cookie", cookie)
+                            w.Header().Add("Set-Cookie", cookie)
                         }
                     {{else -}}
                         w.Header().Set("{{.Name}}", fmt.Sprint(response.Headers.{{.GoName}}))
@@ -138,7 +138,7 @@
                 {{range $headers -}}
                     {{if eq .Name "Set-Cookie" -}}
                         for _, cookie := range response.Headers.SetCookie {
-                            w.Header().Set("Set-Cookie", cookie)
+                            w.Header().Add("Set-Cookie", cookie)
                         }
                     {{else -}}
                         w.Header().Set("{{.Name}}", fmt.Sprint(response.Headers.{{.GoName}}))
